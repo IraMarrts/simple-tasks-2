@@ -1,0 +1,63 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "scss.validate": false,
+  "css.validate": false,
+  "less.validate": false,
+  "stylelint.validate": ["css", "scss"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.tabSize": 2,
+  "editor.rulers": [80],
+  "editor.showFoldingControls": "always",
+  "editor.folding": true,
+  "editor.foldingStrategy": "indentation",
+  "eslint.alwaysShowStatus": true,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "typescript.inlayHints.variableTypes.enabled": true,
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.inlayHints.parameterTypes.enabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "stylelint.vscode-stylelint"
+  },
+
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.defaultProfile.windows": "Node.js",
+  "terminal.integrated.profiles.windows": {
+    "Node.js": {
+      "path": "C:\\Program Files\\nodejs\\node.exe",
+      "args": []
+    }
+  },
+
+  "prettier.prettierPath": "node_modules/prettier/index.cjs",
+  "prettier.requireConfig": false
+}
